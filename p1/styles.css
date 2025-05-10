@@ -32,14 +32,40 @@ header a{
     flex-wrap: wrap;
     padding: 20px;
 }
- .row2 {
-  background-color: rgb(152, 244, 251);
-  display: flex;
-  flex-wrap: wrap;         /* Add this */
-  gap: 20px;
-  justify-content: center;
-  margin-top: 20px;
-  padding: 20px;           /* Optional for spacing */
+ #projects {
+    background-color: #d6c9f0;
+    padding: 40px 20px;
+}
+
+.projects-heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.demo-button {
+    padding: 8px 16px;
+    background-color: #eee;
+    border: 1px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 
@@ -47,16 +73,9 @@ header a{
     width: 500px;
     padding: 30px;
 
+
 }
-.box2 {
-  width: 200px;     /* Already correct */
-  height: 150px;
-  border: 2px solid black;
-  border-radius: 15px;
-  padding: 10px;
-  background-color: beige;
-  box-sizing: border-box;  /* Add this */
-}
+
 
 
 
