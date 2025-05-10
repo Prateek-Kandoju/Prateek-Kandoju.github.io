@@ -32,28 +32,32 @@ header a{
     flex-wrap: wrap;
     padding: 20px;
 }
- .row2{
-     background-color: palegreen;
-    display: flex;
+ .row2 {
+  background-color: palegreen;
+  display: flex;
+  flex-wrap: wrap;         /* Add this */
   gap: 20px;
   justify-content: center;
   margin-top: 20px;
-  padding: 20px;
- }
+  padding: 20px;           /* Optional for spacing */
+}
+
 
 .box {
     width: 500px;
     padding: 30px;
 
 }
-.box2{
-    width: 200px;
+.box2 {
+  width: 200px;     /* Already correct */
   height: 150px;
   border: 2px solid black;
   border-radius: 15px;
   padding: 10px;
   background-color: beige;
+  box-sizing: border-box;  /* Add this */
 }
+
 
 
 .btn-signup{
