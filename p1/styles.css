@@ -34,7 +34,10 @@ header a{
 }
  .row2{
      background-color: palegreen;
-    
+    display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
  }
 
 .box {
@@ -48,6 +51,7 @@ header a{
   border: 2px solid black;
   border-radius: 15px;
   padding: 10px;
+  background-color: beige;
 }
 
 
