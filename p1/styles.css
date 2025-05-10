@@ -42,7 +42,13 @@ header a{
     font-size: 28px;
     font-weight: bold;
 }
-
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: darkgray;
+    color:white;
+    font-size: large;
+}
 .projects-container {
     display: flex;
     justify-content: space-around;
