@@ -33,7 +33,7 @@ header a{
     padding: 20px;
 }
  #projects {
-    background-color: #d6c9f0;
+    background-color: #588ae0;
     padding: 40px 20px;
 }
 
@@ -62,7 +62,7 @@ header a{
 
 .demo-button {
     padding: 8px 16px;
-    background-color: #eee;
+    background-color:#588ae0;
     border: 1px solid #000;
     border-radius: 8px;
     cursor: pointer;
