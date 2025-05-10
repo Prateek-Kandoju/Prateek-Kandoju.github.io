@@ -33,7 +33,7 @@ header a{
     padding: 20px;
 }
  #projects {
-    background-color: #588ae0;
+    background-color: #647eac;
     padding: 40px 20px;
 }
 
@@ -62,7 +62,7 @@ header a{
 
 .demo-button {
     padding: 8px 16px;
-    background-color:#588ae0;
+    background-color:#647eac;
     border: 1px solid #000;
     border-radius: 8px;
     cursor: pointer;
@@ -99,4 +99,29 @@ header a{
 
 .title {
     font-size: 30px;
+}
+.section-heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px 0 20px;
+}
+
+.info-box {
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.info-box ul {
+    padding-left: 20px;
+}
+
+#services, #about, #contact {
+    padding: 30px 20px;
 }
