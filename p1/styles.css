@@ -33,7 +33,7 @@ header a{
     padding: 20px;
 }
  .row2 {
-  background-color: palegreen;
+  background-color: rgb(152, 244, 251);
   display: flex;
   flex-wrap: wrap;         /* Add this */
   gap: 20px;
