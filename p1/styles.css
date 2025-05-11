@@ -156,3 +156,27 @@ footer {
 .project-card:hover{
     transform:scale(1.1,1.1);
 }
+/* Default style for large screens (desktops/laptops) */
+.title {
+    font-size: 30px;
+    text-align: left;
+}
+
+/* Tablets (e.g., iPads) - screen width between 600px and 1024px */
+@media (max-width: 1024px) and (min-width: 601px) {
+    .title {
+        font-size: 26px;
+        color: #3f51b5;
+        text-align: center;
+    }
+}
+
+/* Phones - screen width 600px and below */
+@media (max-width: 600px) {
+    .title {
+        font-size: 22px;
+        color: #d32f2f;
+        text-align: center;
+        font-weight: bold;
+    }
+}
