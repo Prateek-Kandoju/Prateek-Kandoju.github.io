@@ -59,4 +59,34 @@ header {
   width: 20px;
   height: 20px; /* Reduced from 30px to match size */
 }
-
+.smoothie{
+    position: relative;
+}
+.natural{
+    position: absolute;
+    color: rgb(252, 252, 66);
+    top: 20px;
+  left: 20px;
+  font-weight: bold;
+   font-family: 'Poppins', sans-serif;
+}
+.smo{
+    position: absolute;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+color: rgba(0, 0, 0, 0.877);
+top: 60px;
+  left: 20px;
+}
+.sn{
+     position: absolute;
+     top: 240px;
+     color: rgba(0, 0, 0, 0.808);
+  left: 20px;
+  width: 100px;
+  background-color:rgb(255, 255, 44) ;
+  border: 0px;
+  font-family: 'Poppins', sans-serif;
+font-weight: bold;
+  border-radius: 210px;
+}
