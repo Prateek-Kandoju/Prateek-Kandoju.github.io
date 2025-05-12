@@ -1,0 +1,62 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('img/background-pattern.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white; /* Make text readable over image */
+  font-family: Arial, sans-serif;
+  
+}
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+    width: 100%;
+    margin: auto
+}
+ .search {
+  background-color: rgb(238, 238, 238);
+  border-radius: 20px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px 10px; /* Reduced padding */
+  gap: 8px;
+  height: 40px; /* Optional: fix height if needed */
+}
+
+.search select {
+  background-color: rgb(235, 235, 235);
+  color: grey;
+  border: none;
+  font-size: 14px;
+  height: 30px;
+}
+
+.search input {
+  background-color: rgb(238, 238, 238);
+  border: none;
+  width: 250px;
+  font-size: 14px;
+  height: 28px;
+}
+
+.search img {
+  width: 20px;
+  height: 20px; /* Reduced from 30px to match size */
+}
+
