@@ -60,10 +60,11 @@ header {
   height: 20px; /* Reduced from 30px to match size */
 }
 .belowheader{
-    justify-content: center;
+    display: flex;
 }
 .smoothie{
     position: relative;
+    left: 20px;
 }
 .natural{
     position: absolute;
@@ -71,7 +72,7 @@ header {
     top: 50px;
   left: 20px;
   font-weight: bold;
-   font-family: 'Poppins', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
    
 }
 .smo{
@@ -92,8 +93,58 @@ top: 125px;
   height: 50px;
   background-color:rgb(255, 255, 44) ;
   border: 0px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 font-weight: bold;
   border-radius: 10px;
   font-size: larger;
+}
+.veggies{
+     position: relative;
+    left:40px;
+}
+.perc{
+  position: absolute;
+    color: rgba(0, 0, 0, 0.815);
+    top: 10px;
+  left: 50px;
+  
+  font-family: 'Times New Roman', Times, serif;
+}
+.sale{
+     position: absolute;
+    color: rgba(0, 0, 0, 0.815);
+    top: 40px;
+  left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.fav{
+   position: absolute;
+    color: rgba(4, 110, 0, 0.815);
+    top: 70px;
+  left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 35px;
+}
+.sc{
+  position: absolute;
+    color: rgba(0, 0, 0, 0.89);
+    top: 190px;
+  left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 20px;
+}
+.baked{
+  position: relative;
+    right:40px;
+}
+.rightcolumn{
+   position: relative;
+}
+.baked{
+  position: absolute;
+    color: rgba(4, 110, 0, 0.815);
+    top: 250px;
+  left: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 35px;
 }
