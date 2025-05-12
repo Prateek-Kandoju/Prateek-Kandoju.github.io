@@ -101,11 +101,12 @@ font-weight: bold;
 .veggies{
      position: relative;
     left:40px;
+   
 }
 .perc{
   position: absolute;
     color: rgba(0, 0, 0, 0.815);
-    top: 10px;
+    top: 6px;
   left: 50px;
   
   font-family: 'Times New Roman', Times, serif;
@@ -120,7 +121,7 @@ font-weight: bold;
 .fav{
    position: absolute;
     color: rgba(4, 110, 0, 0.815);
-    top: 70px;
+    top: 65px;
   left: 50px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
   font-size: 35px;
@@ -128,23 +129,48 @@ font-weight: bold;
 .sc{
   position: absolute;
     color: rgba(0, 0, 0, 0.89);
-    top: 190px;
+    top: 170px;
   left: 50px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
   font-size: 20px;
 }
-.baked{
-  position: relative;
-    right:40px;
-}
+
 .rightcolumn{
    position: relative;
 }
 .baked{
+  position: relative;
+    left:40px;
+    top:20px
+}
+.perc2{
   position: absolute;
-    color: rgba(4, 110, 0, 0.815);
-    top: 250px;
-  left: 40px;
+    color: rgba(0, 0, 0, 0.815);
+    top:5px;
+   left : 50px;
+ 
+  font-family: 'Times New Roman', Times, serif;
+}
+.sale2{
+     position: absolute;
+    color: rgba(0, 0, 0, 0.815);
+    top: 40px;
+  left: 50px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.fav2{
+   position: absolute;
+    left:50px;
+    top:60px;
+    color: rgb(151, 80, 22);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
   font-size: 35px;
+}
+.sc2{
+  position: absolute;
+    color: rgba(0, 0, 0, 0.89);
+    top: 170px;
+  left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 20px;
 }
