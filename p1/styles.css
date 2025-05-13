@@ -68,7 +68,7 @@ footer {
 
 .demo-button {
     padding: 8px 16px;
-    background-color:#e4a4ec;
+    background-color:#201f1f1e;
     border: 1px solid #000;
     border-radius: 8px;
     cursor: pointer;
@@ -132,19 +132,18 @@ footer {
     padding: 30px 20px;
 }
 #home {
-    background-color: #fff8e1; /* light yellow */
+    background-color: #fff8e1; 
 }
 
 #services {
-    background-color: #e1f5fe; /* light blue */
+    background-color: #e1f5fe; 
 }
-
 #about {
-    background-color: #e8f5e9; /* light green */
+    background-color: #e8f5e9;
 }
 
 #contact {
-    background-color: #fce4ec; /* light pink */
+    background-color: #fce4ec; 
 }
 .box:hover{
     transform:scale(1.1,1.1);
