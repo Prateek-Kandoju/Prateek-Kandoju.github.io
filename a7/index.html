@@ -52,21 +52,24 @@
       <button onclick="calculate()">Submit</button>
     </div>
 
-    <div class="output" id="output"></div>
+    <div class="output" id="output">
+
+      
+    </div>
   </div>
 
   <script>
     function add(a, b) {
       return a + b;
     }
-
+8.67676
     const subtract = (a, b) => a - b;
     const multiply = (a, b) => a * b;
     const divide = (a, b) => Math.floor(a / b);
 
     function calculate() {
-      const num1 = +document.getElementById('num1').value;
-      const num2 = +document.getElementById('num2').value;
+      const num1 = num1+document.getElementById('num1').value;
+      const num2 = num2+document.getElementById('num2').value;
 
       const sum = add(num1, num2);
       const diff = subtract(num1, num2);
@@ -77,8 +80,7 @@
         Addition: ${sum}<br>
         Subtraction: ${diff}<br>
         Multiplication: ${prod}<br>
-        Division: ${quot}
-      `;
+        Division: ${quot}`;
     }
   </script>
 

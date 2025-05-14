@@ -5,7 +5,7 @@ body {
   background-image: url('img/background-pattern.jpg'); 
   background-size: cover;
   background-position: center;
-  background-repeat:repeat;
+  
   height: 100vh;
   color: white; 
   font-family: Arial, sans-serif;
