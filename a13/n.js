@@ -1,12 +1,15 @@
-let fruits = [
-  { id: 1, name: "Apple", price: 250 ,qty : 2, status : "pending" },
-  { id: 2, name: "Orange", price: 100, qty : 2,status : "pending"  },
-  { id: 3, name: "Mango", price: 80 ,qty : 2, status : "pending" },
+const items = [
+  { name: "apple", price: 50, qty: 3, status: "pending" },
+  { name: "banana", price: 30, qty: 5, status: "pending" },
+  { name: "orange", price: 80, qty: 2, status: "pending" }
 ];
+const updatedItems = items
+  .filter(item => item.qty > 2)
+  .map(item => ({
+    name: item.name,
+    price: item.price,
+    qty: item.qty,
+    total: item.price * item.qty
+  }));
 
-let updatedFruits = fruits.map(element => ({...element , total : element.price * element.qty , status : "completed" , }));
- 
-
-updatedFruits.forEach(element => {
-  console.log(element.name+" "+element.total);
-})
+console.log(updatedItems);
