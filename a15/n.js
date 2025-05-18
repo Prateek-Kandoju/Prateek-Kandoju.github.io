@@ -31,5 +31,5 @@ const total = products.reduce((sum, value) => {
   return sum + (cart[value.id] ? value.price * cart[value.id] : 0);
 }, 0);
 
-console.log("Total Order Value:", total);
+console.log(total);
 
