@@ -17,12 +17,12 @@ const addToCart = (id) => {
 
 const increment = (id) => {
   cart[id] = cart[id] + 1;
-  dispCart()
+  dispCart();
 };
 
 const decrement = (id) => {
   cart[id] = cart[id] - 1;
-   dispCart()
+  dispCart();
 };
 
 const dispCart = () => {
@@ -39,7 +39,16 @@ const dispCart = () => {
      </div>
     `);
   });
+  str += `<h4 id='orderValue'></h4>`;
   root.innerHTML = str;
+  dispOrderValue();
+};
+
+const dispOrderValue = () => {
+  const grandTotal = products.reduce((sum, value) => {
+    return sum + value.price * (cart[value.id] ?? 0);
+  },0);
+  orderValue.innerHTML = `Order Value: ${grandTotal}`;
 };
 
 const showProducts = () => {
