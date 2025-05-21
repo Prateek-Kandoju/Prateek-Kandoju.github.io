@@ -19,6 +19,10 @@
 //   }
 //   return sum;
 // }, 0);
+
+
+
+
 const products = [
   { id: 1, name: "p1", price: 34 },
   { id: 2, name: "p2", price: 50 },

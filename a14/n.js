@@ -13,7 +13,7 @@ function sqr(a){
 }
 async function main() {
     try {
-        let sum = await add(4, 5);
+        let sum = await add(5, 5);
         let result = sqr(sum);
         console.log(result);
     } catch (error) {
@@ -21,3 +21,4 @@ async function main() {
         console.error(error);
     }
 }
+main()
